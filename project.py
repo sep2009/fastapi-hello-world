@@ -4,7 +4,8 @@ app = FastAPI()
 @app.get("/", response_class=HTMLResponse)
 async def home():
     return """
-        <html>
+        <html>source venv/bin/activate
+
             <head>
                 <title>SEP</title>
             </head>
